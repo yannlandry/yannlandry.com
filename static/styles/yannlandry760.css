@@ -1,0 +1,93 @@
+/* header */
+header.open {
+	height: auto;
+}
+div#icon {
+	float: none;
+}
+div#menu-trigger {
+	display: block;
+	float: right;
+}
+div#menu-trigger a {
+	display: block;
+	line-height: 60px;
+	padding: 0 10px;
+}
+div#menu-trigger a.active, div#menu-trigger a:hover {
+	background-color: #333;
+	color: #FFF;
+}
+
+/* nav */
+nav {
+	float: none;
+}
+nav > a {
+	display: block;
+	float: right;
+}
+nav li {
+	float: none;
+	line-height: 36px;
+	padding: 0;
+}
+nav li a {
+	display: block;
+	line-height: 36px;
+	padding: 0 10px;
+	border-radius: 0;
+}
+
+/* articles */
+div.single h1 {
+	margin: 70px 0 50px;
+	font-size: 2.8em;
+}
+div.multiple h1 {
+	float: none;
+	width: auto;
+	padding: 0;
+	border: 0;
+}
+
+div.single div.content {
+	font-size: 19px;
+}
+div.multiple div.content {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0;
+	font-size: 17px;
+}
+
+/* teh footer */
+footer {
+	margin-top: 70px;
+}
+
+footer div.aboutme {
+	float: none;
+	min-width: 240px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+footer div.aboutme-picture {
+	float: none;
+	padding-right: 0;
+}
+footer div.aboutme-text {
+	margin-left: 0;
+}
+footer div.footnotes {
+	float: none;
+	width: auto;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #EEE;
+}
+footer div.footnotes > div {
+	padding-left: 0;
+}

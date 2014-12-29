@@ -1,0 +1,232 @@
+body {
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 15px;
+}
+
+/* headers */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 800;
+}
+h1 { font-size: 2em; } /* main titles */
+h2 { font-size: 1.6em; } /* in-text subtitles */
+h3 { font-size: 1.45em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.15em; }
+h6 { font-size: 1em; }
+
+/* links */
+a {
+	color: #08C;
+	text-decoration: none;
+}
+a:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+
+/* header */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.95);
+	border-bottom: 1px solid #CCC;
+	text-transform: uppercase;
+}
+header a, header a:hover {
+	color: #222;
+	text-decoration: none;
+}
+div#icon {
+	float: left;
+}
+div#icon a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding: 5px;
+}
+div#icon a span {
+	display: block;
+	margin-left: 60px;
+}
+div#icon img {
+	float: left;
+	border-radius: 25px;
+}
+div#menu-trigger {
+	display: none;
+}
+
+/* nav */
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	float: left;
+	padding: 0 12px 0 0;
+}
+nav li a {
+	display: inline-block;
+	line-height: 15px;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+nav a.active, nav a:hover {
+	background-color: #333;
+	color: #FFF;
+}
+
+/* containers */
+div#body {
+	padding-top: 61px;
+}
+div.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* articles */
+div.single {
+	max-width: 720px;
+	margin: 0 auto;
+}
+div.multiple {
+	max-width: 840px;
+	margin: 36px auto;
+}
+
+div.single h1 {
+	max-width: 420px;
+	line-height: 1.15em;
+	margin: 90px 0 70px;
+	font-size: 3.2em;
+}
+div.multiple h1 {
+	float: left;
+	width: 200px;
+	line-height: 1.15em;
+	margin: 0;
+	padding: 10px 20px 10px 0;
+	border-right: 1px solid #CCC;
+}
+div.multiple h1 a, div.single h1 a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+div.single div.content, div.multiple div.content {
+	line-height: 1.5em;
+	font-family: Vollkorn, serif;
+	color: #333;
+}
+div.single div.content {
+	font-size: 22px;
+}
+div.single div.content img {
+	max-width: 100%;
+}
+div.multiple div.content {
+	margin-left: 220px;
+	padding-left: 19px;
+	border-left: 1px solid #CCC;
+	font-size: 18px;
+}
+div.multiple p {
+	margin: 12px 0;
+}
+div.multiple p.datetime {
+	margin: 0;
+	font-family: 'Ek Mukta', Arial, sans-serif;
+	font-size: 0.7em;
+	color: #666;
+	text-transform: uppercase;
+}
+
+/* category controls */
+div#category-controls {
+	line-height: 33px;
+	margin: 50px 0;
+	text-align: center;
+	color: #666;
+	text-transform: uppercase;
+}
+div#category-controls a {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 14px;
+	border: 1px solid #888;
+	border-radius: 100px;
+	color: inherit;
+	text-decoration: inherit;
+}
+div#category-controls a:hover {
+	background-color: #F5F5F5;
+}
+
+/* teh footer */
+footer {
+	margin-top: 90px;
+	padding: 10px;
+	border-top: 1px solid #EEE;
+	background-image: url('../images/symphony.png');
+}
+footer > div {
+	max-width: 940px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer div.aboutme {
+	float: left;
+	overflow: hidden;
+	width: 60%;
+}
+footer div.aboutme-picture {
+	float: left;
+	padding-right: 30px;
+}
+footer div.aboutme-picture img {
+	border-radius: 100px;
+}
+footer div.aboutme-text {
+	margin-left: 150px;
+}
+footer div.aboutme-text h3 {
+	margin: 10px 0;
+	font-family: Vollkorn, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+footer div.footnotes {
+	float: right;
+	width: 40%;
+	font-size: 0.88em;
+	color: #888;
+	text-transform: uppercase;
+}
+footer div.footnotes > div {
+	padding-left: 30px;
+}
+footer div.footnotes p {
+	margin: 0 0 10px;
+}
